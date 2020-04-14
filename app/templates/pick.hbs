@@ -1,0 +1,57 @@
+<div class="column-container">
+  <PowerSelect
+    @triggerClass="drop-down"
+    @placeholder="Colour #1"
+    @options={{array "Rocket" "Ruby" "Rust"}}
+    @selected={{this.red}}
+    @onChange={{action (mut this.red)}} as |values|
+  >
+    {{values}}
+  </PowerSelect>
+
+  <PowerSelect
+    @triggerClass="drop-down"
+    @placeholder="Colour #2"
+    @options={{array "Jasper" "Carrot" "Gold"}}
+    @selected={{this.orange}}
+    @onChange={{action (mut this.orange)}} as |values|
+  >
+    {{values}}
+  </PowerSelect>
+
+  <PowerSelect
+    @triggerClass="drop-down"
+    @placeholder="Colour #3"
+    @options={{array "Sun" "Butterscotch" "Sandstorm"}}
+    @selected={{this.yellow}}
+    @onChange={{action (mut this.yellow)}} as |values|
+  >
+    {{values}}
+  </PowerSelect>
+
+  <PowerSelect
+    @triggerClass="drop-down"
+    @placeholder="Colour #4"
+    @options={{array "Lime" "Emerald" "Mint"}}
+    @selected={{this.green}}
+    @onChange={{action (mut this.green)}} as |values|
+  >
+    {{values}}
+  </PowerSelect>
+
+  <PowerSelect
+    @triggerClass="drop-down"
+    @placeholder="Colour #5"
+    @options={{array "Sky" "Navy" "Ocean"}}
+    @selected={{this.blue}}
+    @onChange={{action (mut this.blue)}} as |values|
+  >
+    {{values}}
+  </PowerSelect>
+
+  <LinkTo
+    class="button-link"
+    @route="colour-one.colour-two.colour-three.colour-four.colour-five"
+    @models={{array this.red this.orange this.yellow this.green this.blue}}
+  >Go</LinkTo>
+</div>

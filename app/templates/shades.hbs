@@ -1,0 +1,10 @@
+<div class="side-container">
+  {{#each @model.shades as |shade|}}
+      <LinkTo
+        class="button-link"
+        @route="shades.shade"
+        @models={{array shade}}
+      >{{shade}}</LinkTo>
+  {{/each}}
+</div>
+{{outlet}}

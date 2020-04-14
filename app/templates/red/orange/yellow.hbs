@@ -1,0 +1,10 @@
+<div class={{@model.[2].colour}}></div>
+
+{{#if @model.[2].colour}}
+  <div class="footer">
+    <LinkTo class="button-link button-orange" @route="red.orange">Orange</LinkTo>
+    <LinkTo class="button-link button-green" @route="red.orange.yellow.green">Green</LinkTo>
+  </div>
+{{/if}}
+
+{{outlet}}

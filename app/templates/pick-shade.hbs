@@ -1,0 +1,17 @@
+<div class="column-container">
+  <PowerSelect
+    @triggerClass="drop-down"
+    @placeholder="Pick Shade"
+    @options={{array "Red" "Orange" "Yellow" "Green" "Blue"}}
+    @selected={{this.shade}}
+    @onChange={{action (mut this.shade)}} as |values|
+  >
+    {{values}}
+  </PowerSelect>
+
+  <LinkTo
+    class="button-link"
+    @route="shades"
+    @models={{array this.shade}}
+  >Go</LinkTo>
+</div>

@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body {
+  background: #EDF2F5;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+.header {
+  background-color: transparent;
+  color: #22223A;
+  width: 100%;
+}
+
+.header h1 {
+  margin: 0 10px;
+  font-family: 'Pacifico', cursive;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.application-container {
+  display: flex;
+  justify-content: center;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  align-items: center;
+}
+
+.drop-down {
+  margin: 20px;
+  width: 400px;
+  padding: 5px;
+}
+
+.button-link {
+  text-align: center;
+  height: 40px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: #22223A;
+  color: #C2C2C9;
+  padding-top: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.button-red {
+  background-color: red;
+  color: white;
+}
+
+.button-orange {
+  background-color: orange;
+  color: white;
+}
+
+.button-yellow {
+  background-color: yellow;
+}
+
+.button-green {
+  background-color: green;
+  color: white;
+}
+
+.button-blue {
+  background-color: blue;
+  color: white;
+}
+
+.position {
+  display: flex;
+  float: right;
+}
+
+.red {
+  height: 750px;
+  width: 750px;
+  border: 20px solid red;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.orange {
+  height: 710px;
+  width: 710px;
+  border: 20px solid orange;
+  border-radius: 50%;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.yellow {
+  height: 670px;
+  width: 670px;
+  border: 20px solid yellow;
+  border-radius: 50%;
+  margin-top:40px;
+  position: absolute;
+}
+
+.green {
+  height: 630px;
+  width: 630px;
+  border: 20px solid green;
+  border-radius: 50%;
+  margin-top:60px;
+  position: absolute;
+}
+
+.blue {
+  height: 590px;
+  width: 590px;
+  border: 20px solid blue;
+  border-radius: 50%;
+  margin-top:80px;
+  position: absolute;
+}
+
+.Rust {
+  height: 750px;
+  width: 750px;
+  border: 20px solid #660000;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+}
+
+.Ruby {
+  height: 750px;
+  width: 750px;
+  border: 20px solid #b90702;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+}
+
+.Rocket {
+  height: 750px;
+  width: 750px;
+  border: 20px solid #9b111e;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+}
+
+.Jasper {
+  height: 710px;
+  width: 710px;
+  border: 20px solid #D44500;
+  border-radius: 50%;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.Carrot {
+  height: 710px;
+  width: 710px;
+  border: 20px solid #ED9121;
+  border-radius: 50%;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.Gold {
+  height: 710px;
+  width: 710px;
+  border: 20px solid #E09540;
+  border-radius: 50%;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.Sun {
+  height: 670px;
+  width: 670px;
+  border: 20px solid #ffea00;
+  border-radius: 50%;
+  margin-top:40px;
+  position: absolute;
+}
+
+.Butterscotch {
+  height: 670px;
+  width: 670px;
+  border: 20px solid #f8e084;
+  border-radius: 50%;
+  margin-top:40px;
+  position: absolute;
+}
+
+.Sandstorm {
+  height: 670px;
+  width: 670px;
+  border: 20px solid #ECCE00;
+  border-radius: 50%;
+  margin-top:40px;
+  position: absolute;
+}
+
+.Lime {
+  height: 630px;
+  width: 630px;
+  border: 20px solid #bfff00;
+  border-radius: 50%;
+  margin-top:60px;
+  position: absolute;
+}
+
+.Emerald {
+  height: 630px;
+  width: 630px;
+  border: 20px solid #50c878;
+  border-radius: 50%;
+  margin-top:60px;
+  position: absolute;
+}
+
+.Mint {
+  height: 630px;
+  width: 630px;
+  border: 20px solid #3eb489;
+  border-radius: 50%;
+  margin-top:60px;
+  position: absolute;
+}
+
+.Sky {
+  height: 590px;
+  width: 590px;
+  border: 20px solid #87ceeb;
+  border-radius: 50%;
+  margin-top:80px;
+  position: absolute;
+}
+
+.Navy {
+  height: 590px;
+  width: 590px;
+  border: 20px solid #000080;
+  border-radius: 50%;
+  margin-top:80px;
+  position: absolute;
+}
+
+.Ocean {
+  height: 590px;
+  width: 590px;
+  border: 20px solid #006994;
+  border-radius: 50%;
+  margin-top:80px;
+  position: absolute;
+}
+
+.circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 200px;
+}
+
+.side-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 20px;
+}
